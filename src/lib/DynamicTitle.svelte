@@ -14,7 +14,7 @@
 		margin: 0;
 		padding: 0;
 
-		font-size: 2.8em;
+		font-size: 2.4em;
 		font-weight: 400;
 		font-family: "Ultra", sans-serif;
 

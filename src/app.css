@@ -1,12 +1,10 @@
 /* app.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Ultra&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
 :root {
-
-	color-scheme: light dark;
-	color: rgba(255, 255, 255, 0.87);
+	color: #ffffff;
 	background-color: #242424;
 
 	font-synthesis: none;
@@ -28,9 +26,15 @@ body {
 	background-size: cover;
 }
 
-body>div {
-	height: 100%;
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #24242492;
+		background-blend-mode: darken;
+	}
+}
 
+
+body > div {
+	height: 100%;
 	display: grid;
-	grid-template-rows: 1fr auto;
 }

@@ -3,7 +3,6 @@
 <script>
 	import DynamicTitle from "./lib/DynamicTitle.svelte";
 	import IntroductoryText from "./lib/IntroductoryText.svelte";
-	import Attribution from "./lib/Attribution.svelte";
 
 	let random = Math.floor(Math.random() * 9);
 	document.body.style.backgroundImage = `url('/backgrounds/${random}.jpeg')`;
@@ -19,34 +18,23 @@
 		<IntroductoryText />
 
 		<nav>
-			<button
-				on:click={() => redirectPage("https://github.com/abiddiscombe")}
-			>
+			<button on:click={() => redirectPage("https://github.com/abiddiscombe")} >
 				<i class="bi bi-github" />
 				GitHub
 			</button>
 
-			<button
-				on:click={() =>
-					redirectPage("https://linkedin.com/in/archiebiddiscombe")}
-			>
+			<button on:click={() => redirectPage("https://linkedin.com/in/archiebiddiscombe")} >
 				<i class="bi bi-linkedin" />
 				LinkedIn
 			</button>
 
-			<button
-				on:click={() => redirectPage("https://archiebiddiscombe.net")}
-			>
-				<i class="bi bi-tools" />
+			<button on:click={() => redirectPage("https://archiebiddiscombe.net")} >
+				<i class="bi bi-folder-fill" />
 				Labs
 			</button>
 		</nav>
 	</div>
 </main>
-
-<footer>
-	<Attribution />
-</footer>
 
 <style>
 	main {
@@ -55,12 +43,8 @@
 	}
 
 	main > div {
-		padding: 10px;
+		padding: 20px;
 		max-width: 500px;
-	}
-
-	footer {
-		text-align: center;
 	}
 
 	nav {
@@ -71,16 +55,16 @@
 
 	nav > button {
 		margin: 0;
-		margin-right: 4px;
-		margin-bottom: 4pm;
-		padding: 8px 16px;
+		margin-right: 3px;
+		margin-bottom: 3px;
+		padding: 6px 14px;
 
 		cursor: pointer;
 
 		font-family: "Prompt", sans-serif;
-		font-weight: 400;
+		font-weight: 300;
 
-		font-size: 1em;
+		font-size: 0.95em;
 
 		color: inherit;
 		background: none;
@@ -97,6 +81,6 @@
 	}
 
 	nav > button > i {
-		margin-right: 4px;
+		margin-right: 6px;
 	}
 </style>

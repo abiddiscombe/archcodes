@@ -5,16 +5,13 @@
 </script>
 
 <p>
-    I’m a geospatial associate and recent graduate working at <a
-        href="https://ordnancesurvey.co.uk">Ordnance Survey</a
-    >. I’m training to become a full-stack developer with a specialism in
-    geospatial tech.
+    I’m a geospatial associate and recent graduate working at <a href="https://ordnancesurvey.co.uk">Ordnance Survey</a>. I’m training to become a full-stack developer with a specialism in geospatial technologies.
 </p>
 
 <style>
     p {
         font-size: 1em;
-        font-weight: 400;
+        font-weight: 300;
         font-family: "Prompt", sans-serif;
     }
 
