@@ -1,0 +1,102 @@
+<!-- App.svelte -->
+
+<script>
+	import DynamicTitle from "./lib/DynamicTitle.svelte";
+	import IntroductoryText from "./lib/IntroductoryText.svelte";
+	import Attribution from "./lib/Attribution.svelte";
+
+	let random = Math.floor(Math.random() * 9);
+	document.body.style.backgroundImage = `url('/backgrounds/${random}.jpeg')`;
+
+	function redirectPage(url) {
+		window.location.assign(url);
+	}
+</script>
+
+<main>
+	<div>
+		<DynamicTitle />
+		<IntroductoryText />
+
+		<nav>
+			<button
+				on:click={() => redirectPage("https://github.com/abiddiscombe")}
+			>
+				<i class="bi bi-github" />
+				GitHub
+			</button>
+
+			<button
+				on:click={() =>
+					redirectPage("https://linkedin.com/in/archiebiddiscombe")}
+			>
+				<i class="bi bi-linkedin" />
+				LinkedIn
+			</button>
+
+			<button
+				on:click={() => redirectPage("https://archiebiddiscombe.net")}
+			>
+				<i class="bi bi-tools" />
+				Labs
+			</button>
+		</nav>
+	</div>
+</main>
+
+<footer>
+	<Attribution />
+</footer>
+
+<style>
+	main {
+		display: grid;
+		place-items: center;
+	}
+
+	main > div {
+		padding: 10px;
+		max-width: 500px;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	nav {
+		margin: 0;
+		margin-top: 10px;
+		padding: 0;
+	}
+
+	nav > button {
+		margin: 0;
+		margin-right: 4px;
+		margin-bottom: 4pm;
+		padding: 8px 16px;
+
+		cursor: pointer;
+
+		font-family: "Prompt", sans-serif;
+		font-weight: 400;
+
+		font-size: 1em;
+
+		color: inherit;
+		background: none;
+
+		border: 1px solid #e8e8e8;
+		border-radius: 4px;
+	}
+
+	nav > button:hover {
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+			rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+		transition-duration: 200ms;
+		border: 1px solid #ffffff;
+	}
+
+	nav > button > i {
+		margin-right: 4px;
+	}
+</style>
