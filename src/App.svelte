@@ -13,36 +13,29 @@
 </script>
 
 <main>
-	<div>
-		<DynamicTitle />
-		<IntroductoryText />
+	<DynamicTitle />
+	<IntroductoryText />
 
-		<nav>
-			<button on:click={() => redirectPage("https://github.com/abiddiscombe")} >
-				<i class="bi bi-github" />
-				GitHub
-			</button>
+	<nav>
+		<button on:click={() => redirectPage("https://github.com/abiddiscombe")} >
+			<i class="bi bi-github" />
+			GitHub
+		</button>
 
-			<button on:click={() => redirectPage("https://linkedin.com/in/archiebiddiscombe")} >
-				<i class="bi bi-linkedin" />
-				LinkedIn
-			</button>
+		<button on:click={() => redirectPage("https://linkedin.com/in/archiebiddiscombe")} >
+			<i class="bi bi-linkedin" />
+			LinkedIn
+		</button>
 
-			<button on:click={() => redirectPage("https://archiebiddiscombe.net")} >
-				<i class="bi bi-folder-fill" />
-				Labs
-			</button>
-		</nav>
-	</div>
+		<button on:click={() => redirectPage("https://archiebiddiscombe.net")} >
+			<i class="bi bi-folder-fill" />
+			Labs
+		</button>
+	</nav>
 </main>
 
 <style>
 	main {
-		display: grid;
-		place-items: center;
-	}
-
-	main > div {
 		padding: 20px;
 		max-width: 500px;
 	}

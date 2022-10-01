@@ -24,6 +24,9 @@ body {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
+
+	display: grid;
+	place-items: center;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,10 +34,4 @@ body {
 		background-color: #24242492;
 		background-blend-mode: darken;
 	}
-}
-
-
-body > div {
-	height: 100%;
-	display: grid;
 }
