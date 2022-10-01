@@ -1,4 +1,4 @@
-# Personal Website
+# archiebiddiscombe.com
 Thanks for your interest in the code behind [archiebiddiscombe.com](https://archiebiddiscombe.com) - this site is built using [Svelte](https://svelte.dev), which I am currently learning how to use. If you spot a bug or a better way to do something, I'd love to hear!
 
 Shout out to [meshgradients.design](https://www.meshgradients.design) for the beautiful backgrounds used in this prototype.
