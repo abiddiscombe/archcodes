@@ -19,6 +19,7 @@ body {
 	padding: 0;
 
 	height: 100vh;
+	overflow: hidden;
 
 	background-position: center center;
 	background-attachment: fixed;
