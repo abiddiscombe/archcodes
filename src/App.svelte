@@ -13,6 +13,7 @@
 </script>
 
 <main>
+	
 	<DynamicTitle />
 	<IntroductoryText />
 
@@ -26,12 +27,8 @@
 			<i class="bi bi-linkedin" />
 			LinkedIn
 		</button>
-
-		<button on:click={() => redirectPage("https://archiebiddiscombe.net")} >
-			<i class="bi bi-folder-fill" />
-			Labs
-		</button>
 	</nav>
+
 </main>
 
 <style>
