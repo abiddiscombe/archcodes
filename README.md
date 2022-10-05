@@ -1,4 +1,4 @@
-# archiebiddiscombe.net
+# Personal Website
 Thanks for your interest in the code behind my personal website - built using [Svelte](https://svelte.dev), which I am currently learning how to use. If you spot a bug or a better way to do something, I'd love to hear from you!
 
 > **Switching TLD**  
