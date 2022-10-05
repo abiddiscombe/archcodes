@@ -1,8 +1,5 @@
-# Personal Website
+# [archiebiddiscombe.com](https://archiebiddiscombe.com)
 Thanks for your interest in the code behind my personal website - built using [Svelte](https://svelte.dev), which I am currently learning how to use. If you spot a bug or a better way to do something, I'd love to hear from you!
-
-> **Switching TLD**  
-> I've recently moved from .com to .net, because of restrictions on the previous domain in place at work. All content remains the same and users will automatically be referred over.
 
 Shout out to [meshgradients.design](https://www.meshgradients.design) for the neat backgrounds used in this prototype.
 
