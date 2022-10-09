@@ -8,14 +8,21 @@
 </head>
 
 <script>
+
 	// redirect if not on archiebiddiscombe.com
 	if (document.location.hostname == 'archiebiddiscombe-com.pages.dev') {
 		location.href = 'https://archiebiddiscombe.com'
 	}
+
 </script>
 
 <body>
-	<div id="app"></div>
+	<div id="app">
+		<noscript>
+			<h1>JavaScript Required</h1>
+			<p>Please enable JavaScript to view this app.</p>
+		</noscript>
+	</div>
 	<script type="module" src="/src/main.js"></script>
 </body>
 

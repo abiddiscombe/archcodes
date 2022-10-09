@@ -1,12 +1,8 @@
-/* app.css */
+/* lib/app.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Ultra&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
 :root {
-	color: #ffffff;
-	background-color: #242424;
-
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -17,22 +13,11 @@
 body {
 	margin: 0;
 	padding: 0;
-
-	height: 100vh;
-	overflow: hidden;
-
-	background-position: center center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-
-	display: grid;
-	place-items: center;
 }
 
-@media (prefers-color-scheme: dark) {
-	body {
-		background-color: #24242492;
-		background-blend-mode: darken;
-	}
+body > #app {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
 }

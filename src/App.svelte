@@ -1,76 +1,57 @@
-<!-- App.svelte -->
+<!-- src/App.svelte -->
 
 <script>
-	import DynamicTitle from "./lib/DynamicTitle.svelte";
-	import IntroductoryText from "./lib/IntroductoryText.svelte";
+	import Card from "./lib/Card.svelte";
 
-	let random = Math.floor(Math.random() * 9);
-	document.body.style.backgroundImage = `url('/backgrounds/${random}.jpeg')`;
 
-	function redirectPage(url) {
-		window.location.assign(url);
-	}
 </script>
 
-<main>
-	
-	<DynamicTitle />
-	<IntroductoryText />
-
-	<nav>
-		<button on:click={() => redirectPage("https://github.com/abiddiscombe")} >
-			<i class="bi bi-github" />
-			GitHub
-		</button>
-
-		<button on:click={() => redirectPage("https://linkedin.com/in/archiebiddiscombe")} >
-			<i class="bi bi-linkedin" />
-			LinkedIn
-		</button>
-	</nav>
-
-</main>
-
 <style>
-	main {
-		padding: 20px;
-		max-width: 500px;
-	}
 
-	nav {
+	div {
 		margin: 0;
-		margin-top: 10px;
 		padding: 0;
+		height: 100vh;
+
+		display: grid;
+		place-items: center;
+
+		color: #ffffff;
 	}
 
-	nav > button {
-		margin: 0;
-		margin-right: 3px;
-		margin-bottom: 3px;
-		padding: 6px 14px;
+	/*
+		source: https://www.gradient-animator.com/
+	*/
 
-		cursor: pointer;
+	.appliedGradient {
+		background: linear-gradient(84deg, #41b2c5, #b4529b);
+		background-size: 400% 400%;
 
-		font-family: "Prompt", sans-serif;
-		font-weight: 300;
-
-		font-size: 0.95em;
-
-		color: inherit;
-		background: none;
-
-		border: 1px solid #e8e8e8;
-		border-radius: 4px;
+		-webkit-animation: AnimationName 44s ease infinite;
+		-moz-animation: AnimationName 44s ease infinite;
+		animation: AnimationName 44s ease infinite;
 	}
 
-	nav > button:hover {
-		box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-			rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-		transition-duration: 200ms;
-		border: 1px solid #ffffff;
+	@-webkit-keyframes AnimationName {
+		0%{background-position:17% 0%}
+		50%{background-position:84% 100%}
+		100%{background-position:17% 0%}
 	}
-
-	nav > button > i {
-		margin-right: 6px;
+	@-moz-keyframes AnimationName {
+		0%{background-position:17% 0%}
+		50%{background-position:84% 100%}
+		100%{background-position:17% 0%}
 	}
+	@keyframes AnimationName {
+		0%{background-position:17% 0%}
+		50%{background-position:84% 100%}
+		100%{background-position:17% 0%}
+	}
+	
 </style>
+
+<!-- scaffold -->
+
+<div class="appliedGradient">
+	<Card />
+</div>

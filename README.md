@@ -1,8 +1,12 @@
 # [archiebiddiscombe.com](https://archiebiddiscombe.com)
-Thanks for your interest in the code behind my personal website - built using [Svelte](https://svelte.dev), which I am currently learning how to use. If you spot a bug or a better way to do something, I'd love to hear from you!
+Thanks for your interest in the code behind my personal website.  
+I'm currently learning [Svelte](https://svelte.dev); this site and my other frontend projects are useful opportunities to practise! If you spot a bug, or a better way to do something, I'd be interested to hear your feedback.
 
-Shout out to [meshgradients.design](https://www.meshgradients.design) for the neat backgrounds used in this prototype.
+## Deployment
+This site is hosted via [Cloudflare Pages](https://pages.cloudflare.com/). This is linked to push events and (accepted) pull requests on the `main` branch in GitHub, Cloudflare then automatically runs deployment scripts to serve the content via Cloudflare's edge delivery network.
 
-This site is hosted via DigitalOcean's App Platform, which supports CI via GitHub:
-
-[![DigitalOcean Referral Badge](https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg)](https://www.digitalocean.com/?refcode=667158d79229&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+## Credits
+The following resources helped me build this site:
+- [Bootstrap Icons](https://icons.getbootstrap.com/)
+- [Moving Gradient Background Generator](https://www.gradient-animator.com/)
+- [Blinking Text Tutorial](https://www.w3docs.com/snippets/css/how-to-create-a-blinking-effect-with-css3-animations.html)
