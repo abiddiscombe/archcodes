@@ -1,18 +1,18 @@
 <!-- src/lib/Card.svelte -->
 <script>
-    import { action_destroyer } from "svelte/internal";
 
 	function redirectPage(url) {
 		window.location.assign(url);
 	}
+
 </script>
 
 <!-- scaffold -->
 
 <div>
-	<h1>archieBiddiscombe<span class="blink" aria-hidden="true"> _</span></h1>
+	<h1>ARCHIE<br aria-hidden="true">BIDDISCOMBE<span class="blink" aria-hidden="true"> _</span></h1>
 	<p>
-		I’m a geospatial associate and <a href="https://www.durham.ac.uk/geography">recent graduate</a> currently working at <a
+		I’m a geospatial associate and <a href="https://www.durham.ac.uk/geography">recent graduate</a>, currently working at <a
 			href="https://ordnancesurvey.co.uk">Ordnance Survey</a
 		>. I’m training to become a full-stack developer with a specialism in
 		geospatial technologies.
