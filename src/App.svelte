@@ -13,7 +13,8 @@
 	div {
 		margin: 0;
 		padding: 0;
-		height: 100vh;
+		width: 100%;
+		height: 100%;
 
 		display: grid;
 		grid-template-rows: auto 1fr;
