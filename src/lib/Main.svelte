@@ -12,7 +12,7 @@
 	section {
 		margin: 0;
 		padding: 0;
-		height: 100%;
+		height: 100vh;
 
 		display: grid;
 		place-items: center;
