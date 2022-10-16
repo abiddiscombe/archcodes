@@ -1,4 +1,4 @@
-# [archiebiddiscombe.com](https://archiebiddiscombe.com)
+# [Personal Website](https://www.archiebiddiscombe.com)
 Thanks for your interest in the code behind my personal website.  
 I'm currently learning [Svelte](https://svelte.dev); this site and my other frontend projects are useful opportunities to practise! If you spot a bug, or a better way to do something, I'd be interested to hear your feedback.
 

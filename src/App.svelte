@@ -1,10 +1,9 @@
 <!-- src/App.svelte -->
 
 <script>
-	import Banner from "./lib/Banner.svelte";
 	import Main from "./lib/Main.svelte";
 
-
+	console.log(`👨‍💻 Hire Me?! I'd love to hear from you via LinkedIn!`)
 
 </script>
 
@@ -17,7 +16,7 @@
 		height: 100%;
 
 		display: grid;
-		grid-template-rows: auto 1fr;
+		grid-template-rows: 1fr;
 	}
 	
 </style>
@@ -25,6 +24,5 @@
 <!-- scaffold -->
 
 <div>
-	<Banner />
 	<Main />
 </div>
