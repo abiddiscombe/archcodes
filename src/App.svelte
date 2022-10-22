@@ -3,7 +3,7 @@
 <script>
 	import Main from "./lib/Main.svelte";
 
-	console.log(`👨‍💻 Hire Me?! I'd love to hear from you via LinkedIn!`)
+	console.log(`👨‍💻 Interested in hiring me? I'd love to hear from you via LinkedIn! :)`)
 
 </script>
 
