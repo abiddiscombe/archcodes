@@ -3,15 +3,14 @@
 </script>
 
 <div>
-	<h1>Archie<br aria-hidden="true" />Biddiscombe<span class="blink" aria-hidden="true"> _</span></h1>
+	<h1>Archie<br aria-hidden="true" />Biddiscombe</h1>
+	<!-- <h1>Archie<br aria-hidden="true" />Biddiscombe<span class="blink" aria-hidden="true"> _</span></h1> -->
 </div>
 
 <style>
 	div {
 		margin: 0;
 		padding: 0;
-
-		display: inline-block;
 	}
 
 	div > h1 {
@@ -19,6 +18,8 @@
 		padding: 0;
 
 		text-transform: lowercase;
+
+		display: inline-block;
 
 		font-size: 2.8em;
 		font-weight: 800;
@@ -29,7 +30,6 @@
 
 		background: #fc5c7d;
 		background: linear-gradient(to right, #6a82fb, #fc5c7d);
-		
 		-webkit-background-clip: text;
 		background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -37,7 +37,7 @@
 		
 	}
 
-	div > h1 > span.blink {
+	/* div > h1 > span.blink {
 		animation: blink-animation 0.8s steps(5, start) infinite;
 		-webkit-animation: blink-animation 0.8s steps(5, start) infinite;
 		-moz-user-select: -moz-none;
@@ -57,5 +57,6 @@
 		to {
 			visibility: hidden;
 		}
-	}
+	} */
+
 </style>
