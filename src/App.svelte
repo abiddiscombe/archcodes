@@ -42,6 +42,8 @@
 	}
 
 	main > section {
+		margin: 20px;
+		padding: 0;
 		max-width: 470px;
 	}
 

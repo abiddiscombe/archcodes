@@ -29,8 +29,12 @@
 
 		background: #fc5c7d;
 		background: linear-gradient(to right, #6a82fb, #fc5c7d);
+		
 		-webkit-background-clip: text;
+		background-clip: text;
 		-webkit-text-fill-color: transparent;
+		text-fill-color: transparent;
+		
 	}
 
 	div > h1 > span.blink {
