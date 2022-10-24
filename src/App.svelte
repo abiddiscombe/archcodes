@@ -7,15 +7,18 @@
 </script>
 
 <main>
+	<div></div>
 	<section>
-		<CoreTitle />
-		<p>
-			I’m a geospatial associate and <a href="https://www.durham.ac.uk/geography">recent 
-			graduate</a>, currently working at <a href="https://ordnancesurvey.co.uk">Ordnance 
-			Survey</a>. I’m training to become a full-stack developer with a specialism in 
-			geospatial technologies.
-		</p>
-		<SocialButtons />
+		<div>
+			<CoreTitle />
+			<p>
+				I’m a geospatial associate and <a href="https://www.durham.ac.uk/geography">recent 
+				graduate</a>, currently working at <a href="https://ordnancesurvey.co.uk">Ordnance 
+				Survey</a>. I’m training to become a full-stack developer with a specialism in 
+				geospatial technologies.
+			</p>
+			<SocialButtons />
+		</div>
 	</section>
 </main>
 
@@ -35,25 +38,37 @@
 		height: 100%;
 
 		display: grid;
-		place-items: center;
+		grid-template-rows: auto 1fr;
 
 		color: var(--l0-fg);
 		background: var(--l0-bg);
+		background: linear-gradient(to bottom, #1d2030, #230208);
+
+	}
+
+	main > div {
+		margin: 0;
+		padding: 2px;
 	}
 
 	main > section {
+		display: grid;
+		place-items: center;
+	}
+
+	main > section > div {
 		margin: 20px;
 		padding: 0;
 		max-width: 470px;
 	}
 
-	main > section > p {
+	main > section > div > p {
 		font-size: 1em;
 		font-weight: 400;
 		font-family: var(--font-family);
 	}
 
-	main > section > p > a {
+	main > section > div > p > a {
 		color: inherit;
 	}
 
