@@ -1,36 +1,38 @@
 <!-- src/App.svelte -->
+
 <script>
 
+	import Header from './lib/Header.svelte'
+
+	import About from './lib/About.svelte'
+
 	import CoreTitle from "./lib/CoreTitle.svelte"
-	import SocialButtons from "./lib/SocialButtons.svelte"
 
 </script>
 
-<main>
-	<div></div>
-	<section>
-		<div>
-			<CoreTitle />
-			<p>
-				I’m a geospatial associate and <a href="https://www.durham.ac.uk/geography">recent 
-				graduate</a>, currently working at <a href="https://ordnancesurvey.co.uk">Ordnance 
-				Survey</a>. I’m training to become a full-stack developer with a specialism in 
-				geospatial technologies.
-			</p>
-			<SocialButtons />
-		</div>
-	</section>
-</main>
+<div>
+
+	<Header />
+
+	<main>
+		<section>
+			<About />
+		</section>
+	</main>
+
+</div>
 
 <style>
 
 	:global(:root) {
 		--font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, sans-serif;
-		--l0-bg: #070F1D;
-		--l0-fg: #dddddd;
+		--accent: #fc5c7d;
+		--l0-bg: #191f33;
+		--l0-fg: #f1f0f0;
 	}
 
-	main {
+	div {
+
 		margin: 0;
 		padding: 0;
 
@@ -42,34 +44,32 @@
 
 		color: var(--l0-fg);
 		background: var(--l0-bg);
-		background: linear-gradient(to bottom, #1d2030, #230208);
 
 	}
 
-	main > div {
+	main {
+
 		margin: 0;
-		padding: 2px;
+		padding: 0;
+
+		width: 100%;
+		height: 100%;
+
 	}
 
 	main > section {
+
+		margin: 0;
+		padding: 0;
+
+		width: 100%;
+		height: 100%;
+
 		display: grid;
 		place-items: center;
+
 	}
 
-	main > section > div {
-		margin: 20px;
-		padding: 0;
-		max-width: 470px;
-	}
 
-	main > section > div > p {
-		font-size: 1em;
-		font-weight: 400;
-		font-family: var(--font-family);
-	}
-
-	main > section > div > p > a {
-		color: inherit;
-	}
 
 </style>

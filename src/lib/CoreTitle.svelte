@@ -3,9 +3,7 @@
 </script>
 
 <div>
-	<!-- <img src="logo.svg" alt="Archie Biddiscombe"> -->
-	<!-- <h1>Archie<br aria-hidden="true" />Biddiscombe</h1> -->
-	<h1>Archie<br aria-hidden="true" />Biddiscombe<span class="blink" aria-hidden="true"> _</span></h1>
+	<h1>Archie<br aria-hidden="true" />Biddiscombe</h1>
 </div>
 
 <style>
