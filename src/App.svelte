@@ -3,10 +3,7 @@
 <script>
 
 	import Header from './lib/Header.svelte'
-
 	import About from './lib/About.svelte'
-
-	import CoreTitle from "./lib/CoreTitle.svelte"
 
 </script>
 

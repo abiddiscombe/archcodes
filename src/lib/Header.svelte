@@ -12,22 +12,13 @@
         </a>
         <nav>
             <ul>
-                <!-- <li>
-                    <a class="textLink" href="#about">
-                        About
-                    </a>
                 <li>
-                    <a class="textLink" href="#projects">
-                        Projects
-                    </a>
-                </li> -->
-                <li>
-                    <a class="iconLink" href="https://github.com/abiddiscombe">
+                    <a href="https://github.com/abiddiscombe">
                         <i class="bi bi-github" />
                     </a>
                 </li>
                 <li>
-                    <a class="iconLink" href="https://linkedin.com/in/archiebiddiscombe">
+                    <a href="https://linkedin.com/in/archiebiddiscombe">
                         <i class="bi bi-linkedin" />
                     </a>
                 </li>
@@ -101,14 +92,14 @@
 
     }
 
-    header > nav > ul > li > a.textLink {
+    header > nav > ul > li > a {
 
         margin: 0.4em 0em;
         padding: 0.6em;
 
         color: inherit;
 
-        font-size: 1em;
+        font-size: 1.1em;
         font-weight: 400;
         font-family: var(--font-family);
 
