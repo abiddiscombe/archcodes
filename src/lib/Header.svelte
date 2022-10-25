@@ -99,21 +99,6 @@
 
         color: inherit;
 
-        font-size: 1.1em;
-        font-weight: 400;
-        font-family: var(--font-family);
-
-        text-decoration: none;
-
-    }
-
-    header > nav > ul > li > a.iconLink {
-
-        margin: 0.4em 0em;
-        padding: 0.6em;
-
-        color: inherit;
-
         font-size: 1.2em;
         font-weight: 400;
         font-family: var(--font-family);
