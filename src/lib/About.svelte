@@ -29,7 +29,7 @@
 
 	div {
 
-		margin: 20px;
+		margin: 2em;
 		padding: 0;
 		max-width: 470px;
 
@@ -61,6 +61,8 @@
 		font-size: 1em;
 		font-weight: 400;
 		font-family: var(--font-family);
+
+		line-height: 1.3;
 
 	}
 
