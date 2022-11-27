@@ -75,7 +75,7 @@
 	}
 
 	div.base > div.stackframe-content > div {
-		margin: 0;
+		margin: 2em;
 		padding: 0;
 
 		max-width: 520px;
