@@ -2,71 +2,45 @@
 
 <script>
 
-	import Header from './lib/Header.svelte'
-	import About from './lib/About.svelte'
+	import Hero from './lib/sections/Hero.svelte';
+	import Footer from './lib/sections/Footer.svelte'
 
 </script>
 
 <div>
 
-	<Header />
+	<section>
+		<Hero />
+	</section>
 
-	<main>
-		<section>
-			<About />
-		</section>
-	</main>
+	<footer>
+		<Footer />
+	</footer>
 
 </div>
 
 <style>
 
 	:global(:root) {
-		--font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, sans-serif;
+		--font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, sans-serif;
 		--accent: #fc5c7d;
-		--l0-bg: #191f33;
-		--l0-fg: #f1f0f0;
+		--foreground: #f1f0f0;
+		--background: #191f33;
+
+		background: var(--background);
 	}
 
 	div {
-
 		margin: 0;
 		padding: 0;
 
-		width: 100%;
-		height: 100%;
-
-		display: grid;
-		grid-template-rows: auto 1fr;
-
-		color: var(--l0-fg);
-		background: var(--l0-bg);
-
+		color: var(--foreground);
+		background: var(--background);
 	}
 
-	main {
-
+	section, footer {
 		margin: 0;
 		padding: 0;
-
-		width: 100%;
-		height: 100%;
-
 	}
-
-	main > section {
-
-		margin: 0;
-		padding: 0;
-
-		width: 100%;
-		height: 100%;
-
-		display: grid;
-		place-items: center;
-
-	}
-
-
 
 </style>
