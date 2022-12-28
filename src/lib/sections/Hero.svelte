@@ -55,7 +55,7 @@
 		grid-area: 1 / 1;
 		z-index: 1;
 
-		background-image: url("https://www.arch.codes/assets/background.svg");
+		background-image: url("https://arch.codes/assets/background.svg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
